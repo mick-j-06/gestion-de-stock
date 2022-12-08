@@ -34,7 +34,7 @@ public class MouvementStock extends AbstractEntity {
     private TypeMouvementStock typeMvt;
 
     @Enumerated(EnumType.STRING)
-    private SourceMvtStk sourceMvt;
+    private SourceMouvementStock sourceMvt;
 
     private Integer idEntreprise;
 }
