@@ -2,12 +2,14 @@ package com.springbootudemy.gestiondestock.model;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 // pour déclarer qu'une classe sera intégrée par d'autres entités.
