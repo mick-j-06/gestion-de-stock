@@ -15,7 +15,7 @@ public class CommandeFournisseurDto {
 
     private Instant dateCommande;
 
-    private FournisseurDto fournisseur;
+    private Integer fournisseur_id;
 
     private List<LigneCommandeFournisseurDto> ligne_commande_fournisseurs;
 }

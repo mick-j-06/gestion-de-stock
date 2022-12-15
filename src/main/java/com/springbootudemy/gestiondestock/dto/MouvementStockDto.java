@@ -13,13 +13,13 @@ import java.time.Instant;
 public class MouvementStockDto {
     private Integer id;
 
-    private Instant dateMvt;
+    private Instant date_mvt;
 
     private BigDecimal quantite;
 
     private ArticleDto article;
 
-    private TypeMouvementStock typeMvt;
+    private TypeMouvementStock type_mvt;
 
-    private SourceMouvementStock sourceMvt;
+    private SourceMouvementStock source_mvt;
 }
